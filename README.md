@@ -10,17 +10,6 @@ The dataset contains **6,362,620 financial transactions** with features related 
 - **8,213** fraudulent transactions
 - Fraud rate: approximately **0.129%**
 
-## 💡 Key Insights  
-✔ **Fraudulent transactions are highly imbalanced**, making accuracy alone insufficient for evaluating the model.
-
-✔ **Higher-value transactions** show noticeably higher fraud rates.
-
-✔ **Transaction type and transaction timing** provide useful signals for identifying fraudulent transactions.
-
-✔ **Balance-related features** show strong relationships, leading to the creation of balance-difference features.
-
-✔ **Threshold optimization** significantly improves fraud precision while maintaining high fraud recall.
-
 ## 📌 Key Analysis & Findings  
 
 ### 1️⃣ Transaction Amount Analysis  
