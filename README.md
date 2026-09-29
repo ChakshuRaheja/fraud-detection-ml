@@ -23,45 +23,25 @@ The dataset contains **6,362,620 financial transactions** with features related 
 
 ## 📌 Key Analysis & Findings  
 
-### 1️⃣ Fraud Distribution  
-📌 This visualization shows the distribution of **fraudulent and non-fraudulent transactions**, highlighting the severe class imbalance in the dataset.  
-
-![Fraud Distribution](images/fraud_distribution.png)
-
-### 2️⃣ Transaction Amount Analysis  
+### 1️⃣ Transaction Amount Analysis  
 📌 Transaction amounts were analyzed using different value ranges to understand how fraud rates change with transaction value.  
 
-![Transaction Amount Analysis](images/transaction_amount.png)
+![Transaction Amount Analysis](/transaction_amount.png)
 
-### 3️⃣ Fraud Rate by Transaction Type  
+### 2️⃣ Fraud Rate by Transaction Type  
 📌 This analysis compares fraud rates across different **transaction types** and identifies transaction categories associated with fraudulent activity.  
 
-![Fraud by Transaction Type](images/fraud_by_type.png)
+![Fraud by Transaction Type](/fraud_by_type.png)
 
-### 4️⃣ Fraud Rate by Hour  
+### 3️⃣ Fraud Rate by Hour  
 📌 Transaction timing was analyzed by extracting the approximate **hour from the transaction step**. The analysis shows variation in fraud rates across different time periods.  
 
-![Fraud Rate by Hour](images/fraud_by_hour.png)
+![Fraud Rate by Hour](/fraud_by_hour.png)
 
-### 5️⃣ Correlation Heatmap  
+### 4️⃣ Correlation Heatmap  
 📌 This heatmap shows the relationships between transaction amount and account balance features. Strong correlations between balance features motivated additional feature engineering.  
 
-![Correlation Heatmap](images/correlation_heatmap.png)
-
-### 6️⃣ Model Performance Comparison  
-📌 **Logistic Regression, Random Forest, and XGBoost** were trained and compared using accuracy, precision, recall, and F1-score.  
-
-![Model Performance Comparison](images/model_comparison.png)
-
-### 7️⃣ Precision-Recall Curve  
-📌 The **Precision-Recall curve** was used to optimize the classification threshold because the dataset contains a highly imbalanced fraud class.  
-
-![Precision Recall Curve](images/precision_recall_curve.png)
-
-### 8️⃣ Confusion Matrix  
-📌 The final tuned XGBoost model achieved approximately **90% fraud recall and 33.8% fraud precision** at the optimized threshold.  
-
-![Confusion Matrix](images/confusion_matrix.png)
+![Correlation Heatmap](/correlation_heatmap.png)
 
 ## 🛠 Technologies Used  
 - **Python, Pandas, NumPy** – Data manipulation and analysis  
